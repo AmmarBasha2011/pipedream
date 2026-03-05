@@ -28,6 +28,7 @@
     "example": "examples"
   },
   "scripts": {
+    "start": "pnpm --filter ./modelcontextprotocol run prod:http",
     "prepare": "husky install",
     "build": "node scripts/build-components.mjs",
     "test": "jest --passWithNoTests components",
